@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/Styles.css">
+    <title>Arifs Hälso Mat</title>
+</head>
+<body>
+<p class="searchOutput" id="output"></p>
+
+<section>
+
+    <header>
+        <h1>Arifs Hälso Matrecept</h1>
+    </header>
+
+    <nav class="radius">
+        <hr>
+        <a class="radius" href="forratter.html">Förrätter</a>
+        <a class="radius" href="#">Huvudrätter</a>
+        <a class="radius" href="#">Efterrätter</a>
+        <a class="radius" href="#">Frukost</a>
+        <a class="radius">
+            <form id="searchForm">
+                <label> <input type="search" onkeyup="myFunction()" placeholder="Sök..." class="search-field_input"
+                               id="findRecept"></label>
+                <button type="submit" class="search-field_submit">Sök</button>
+            </form>
+        </a>
+        <hr>
+    </nav>
+
+    <main id="searchRecept">
+        <article class="grid-items">
+            <img src="img/vegetablesDemo.jpg" class="start_img" alt="Grönsaker image">
+        </article>
+        <article class="grid-items">
+            <h2>Så äter du hälsosamt</h2>
+            <p>
+                Vad du väljer att äta, hur mycket och hur ofta du äter påverkar hur du mår. Hälsosamma matvanor kan
+                bidra till att minska risken för att du ska få hjärt-kärlsjukdomar, övervikt, typ 2-diabetes och cancer.
+                Du behöver inte förändra dina matvanor helt och hållet i ett enda steg. Kom ihåg att varje liten
+                förändring kan göra stor skillnad.
+            </p>
+            <p><b>Tips och råd för att äta hälsosamt och näringsriktigt</b></p>
+            <p>
+                Ät mycket grönsaker, frukt och bär. Välj gärna rotfrukter, vitkål, blomkål, broccoli, bönor och lök.
+                Du som äter fisk och skaldjur, ät detta två till tre gånger i veckan. Variera mellan feta och magra fisksorter.
+                Välj fullkorn när du äter pasta, bröd och gryn.
+                Välj nyttiga oljor i matlagningen, exempelvis rapsolja och smörgåsfetter märkta med Nyckelhålet.
+                Välj magra, osötade mejeriprodukter som är berikade med D-vitamin.
+                Du som äter rött kött och charkprodukter, ät inte mer än sammanlagt 500 gram i veckan. Endast en mindre del bör vara charkprodukter.
+                Välj mat med mindre salt. Använd mindre salt när du lagar mat. Använd salt med jod.
+                Minska mängden godis, kakor, glass och annat med mycket socker. Minska särskilt på söta drycker.
+                Ät lagom mycket. Det vill säga, ät så att du får i dig lika mycket energi som du gör av med. Både för lite och för mycket kan leda till allvarliga hälsoproblem.
+                Välj nyckelhålsmärkta livsmedel. Nyckelhålet är Livsmedelsverkets symbol som hjälper dig att hitta mat med mindre socker och salt, mer fullkorn och fibrer och nyttigare eller mindre fett.
+            </p>
+
+        </article>
+        <article class="grid-items">
+            <img src="img/rostad-blomkal-med-smorad-buljong.jpg" class="start_img" alt="">
+        </article>
+        <article class="grid-items">
+            <h2><a href="rostadBlomkål.html"><b>Rostad blomkål med smörad buljong</b></a></h2>
+            <p>
+                Helrostad blomkål med smörad buljong, fäskpotatis och primörer. Supergott vegetarisk middagstips med
+                blomkål!
+            </p>
+            <p>14 ingredienser</p>
+            <p>45 mint</p>
+
+            <h4>Vad tycker du?</h4>
+            <p>
+                Sätt betyg på receptet
+                &#128512;
+                &#128516;
+                &#128525;
+                <a href="#">&#128151;</a>
+            </p>
+
+        </article>
+        <article class="grid-items">
+            <img src="img/wagyu.jpg" class="start_img" alt="">
+        </article>
+        <article class="grid-items">
+            <h2><a href="wagyubiff.html">Grillad wagyubiff med bearnaisesås</a></h2>
+            <p>
+                Receptet är från tv-programmet Halv åtta hos mig, och recepten därifrån är komponerade av amatörkockar.
+                Köket.se kan därför inte gå i god för receptet.
+            </p>
+            <p>22 ingredienser</p>
+            <p>60 mint</p>
+
+            <h4>Vad tycker du?</h4>
+            <p>
+                Sätt betyg på receptet
+                &#128512;
+                &#128516;
+                &#128525;
+                <a href="#">&#128151;</a>
+            </p>
+
+
+        </article>
+    </main>
+
+    <footer>
+        <ul class="social_list">
+            <li><a href="#"><img src="img/fbLogo.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="img/instLogo.jpg" alt=""/></a></li>
+            <li><a href="#"><img src="img/youtubeLogo.png" alt=""/></a></li>
+        </ul>
+    </footer>
+
+    <main class="newsletter">
+        <form id="nyhetFormReg">
+            <article class="newsletter-title">
+                <h1>Missa inte vårt populära nyhetsbrev!</h1>
+                <p>Ta del av inspiration, nya recept och tips från våra kockar
+                    - Registrera dig kostnadsfritt nedan för
+                    att ta del av exklusiva nyheter genom vårat nyhetsbrev!</p>
+            </article>
+            <article class="newsletter-policyInfo">
+                <p>"Läs mer om" <a href="#"><u>Arifs personuppgiftspolicy!</u></a></p>
+                <p id="kontakt-storage"></p>
+                <script src="js/lokalStorageKontaktInfo.js"></script>
+            </article>
+            <article class="email-checkbox">
+                <p><label><input type="search" placeholder="E-mail..." class="email-field-wrapper" id="email"></label>
+                    <button type="submit" class="newsletter-submit">Skicka</button>
+                </p>
+                <input type="checkbox" id="terms">
+                <label for="terms" class="checkbox"> Check to agree to term and conditions</label>
+<!--                <div id="termsHint" class="warning"></div>-->
+            </article>
+        </form>
+    </main>
+    <p id="emailOutput"></p>
+</section>
+
+<script src="js/indexJS.js"></script>
+<script src="js/nyhetsbrev.js"></script>
+<!--<script src="js/search.js"></script>-->
+
+</body>
+
+</html>
